@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'HSBombaram21-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/HSBombaram21-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.ning1{
+background-color: black;
+position: relative;
+}
+.title{
+   opacity: 0;
+    background-image: url(img/1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: 0px -0px;
+    transition: all 1s ease-in-out;
+}
+@media (max-width: 767px) {
+    .title{
+    background-image: url(img/article-2.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    }
+}
+.title-txt{
+    position: absolute;
+    color: #fff;
+    top: 50%;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'HSBombaram21-Regular';
+    
+}
+.title:hover{
+    opacity: 1;
+}
